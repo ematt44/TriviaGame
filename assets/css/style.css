@@ -1,0 +1,87 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background-image: url("../images/pats-background-img.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1px;
+}
+
+.container {
+    background-image: url("../images/fbfield.png");
+    position: relative;
+    width: 700px;
+    height: 908px;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    margin-top: 55px;
+}
+
+section {
+    font-size: 16px;
+    height: 534px;
+    width: 409px;
+    margin-left: 46px;
+    position: absolute;
+    margin-top: 2px;
+}
+
+h1 {
+    color: white;
+    margin-left: 150px;
+}
+
+#right-answers {
+    visibility: hidden;
+}
+
+#finished {
+    text-align: center;
+}
+
+#show-number {
+    color: white;
+    font-size: 150px;
+    float: right;
+    margin-right: 312px;
+    background: black;
+    width: 500px;
+    height: 200px;
+    margin-top: 55px;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-size: 35px;
+}
+
+#right-answer {
+    margin-top: 100px;
+}
+
+#start {
+    font-size: 50px;
+    position: absolute;
+    top: 3%;
+    left: 57%;
+    width: 170px;
+    height: 91px;
+    background: red;
+    color: white;
+}
+
+#hike-ball {
+    background-image: url("../images/pats-background-img.png");
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1px;
+}

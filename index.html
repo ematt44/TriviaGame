@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+    <div id="hike-ball">
+        <h1>Hike the ball to start the NFL trivia game!</h1>
+        <h1>You will have 45 seconds to complete the game.</h1>
+
+    </div>
+    <button id="start">Hike</button>
+
+
+
+    <div class="bg">
+
+
+
+
+
+        <div id="show-number">00:45</div>
+
+        <div class="container">
+
+            <section>
+
+
+                <form name="triviaGame">
+
+                    <h2>NFL Trivia Game</h2>
+
+
+
+
+                    <h4>Who has the most wins as a head coach in the NFL??</h4>
+
+                    <input type="radio" name="q1" value="Bill Belichick">Bill Belichick
+                    <br>
+                    <input type="radio" name="q1" value="George Halas">George Halas
+                    <br>
+                    <input type="radio" name="q1" value="Tom Landry">Tom Landry
+                    <br>
+                    <input type="radio" name="q1" value="Don Shula">Don Shula
+                    <br>
+
+
+                    <h4>In what city was the first Super Bowl played?</h4>
+
+                    <input type="radio" name="q2" value="Los Angeles">Los Angeles
+                    <br>
+                    <input type="radio" name="q2" value="Boston">Boston
+                    <br>
+                    <input type="radio" name="q2" value="Canton">Canton
+                    <br>
+                    <input type="radio" name="q2" value="Springfield">Springfield
+                    <br>
+
+                    <h4>Which NFL team features a helmet decal only on one side of the helmet?</h4>
+
+                    <input type="radio" name="q3" value="Texans">Houston Texans
+                    <br>
+                    <input type="radio" name="q3" value="Titans">Tennessee Titans
+                    <br>
+                    <input type="radio" name="q3" value="Steelers">Pittsburgh Steelers
+                    <br>
+                    <input type="radio" name="q3" value="Packers">Geen Bay Packers
+                    <br>
+
+                    <h4> Who is the last non-quarterback to win NFL MVP?</h4>
+
+                    <input type="radio" name="q4" value="Ray Lewis">Ray Lewis
+                    <br>
+                    <input type="radio" name="q4" value="LaDanian Tomlinson">LaDainian Tomlinson
+                    <br>
+                    <input type="radio" name="q4" value="Adrian Peterson">Adrian Peterson
+                    <br>
+                    <input type="radio" name="q4" value="Shaun Slexander">Shaun Alexander
+                    <br>
+
+
+                    <h4>This current NFL quarterback, a 2010 Pro Bowler, never started a game at QB in college</h4>
+
+                    <input type="radio" name="q5" value="Matt Schaub">Matt Schaub
+                    <br>
+                    <input type="radio" name="q5" value="Matt Cassel">Matt Cassel
+                    <br>
+                    <input type="radio" name="q5" value="Matt Flynn">Matt Flynn
+                    <br>
+                    <input type="radio" name="q5" value="Matt Moore">Matt Moore
+                    <br>
+
+                    <br>
+                    <br>
+
+                    <button type='button' id="finished">I'm Done</button>
+
+
+
+
+
+
+                </form>
+            </section>
+
+
+        </div>
+        <div id="show-answers">
+            <h1>First Downs:
+                <span id="right-answer"></span>
+            </h1>
+            <h1>Penalties:
+                <span id="wrong-answer"></span>
+            </h1>
+        </div>
+
+        <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
